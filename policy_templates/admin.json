@@ -1,0 +1,7 @@
+{
+  "name": "admin-template",
+  "permission_tier": "admin",
+  "template_content": "{\n  \"Version\": \"2012-10-17\",\n  \"Statement\": [\n    {\n      \"Effect\": \"Allow\",\n      \"Action\": \"*\",\n      \"Resource\": \"*\"\n    },\n    {\n      \"Effect\": \"Deny\",\n      \"Action\": [\n        \"iam:DeleteAccountPasswordPolicy\",\n        \"iam:DeleteAccountAlias\",\n        \"iam:DeleteAccount\",\n        \"organizations:LeaveOrganization\",\n        \"organizations:DeleteOrganization\",\n        \"organizations:CreateOrganization\",\n        \"billing:*\",\n        \"aws-portal:*\",\n        \"support:*\"\n      ],\n      \"Resource\": \"*\"\n    }\n  ]\n}",
+  "variables": [],
+  "version": "1.0"
+}

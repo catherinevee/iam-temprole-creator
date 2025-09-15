@@ -1,0 +1,7 @@
+{
+  "name": "break-glass-template",
+  "permission_tier": "break-glass",
+  "template_content": "{\n  \"Version\": \"2012-10-17\",\n  \"Statement\": [\n    {\n      \"Effect\": \"Allow\",\n      \"Action\": \"*\",\n      \"Resource\": \"*\"\n    }\n  ]\n}",
+  "variables": [],
+  "version": "1.0"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "read-only-template",
+  "permission_tier": "read-only",
+  "template_content": "{\n  \"Version\": \"2012-10-17\",\n  \"Statement\": [\n    {\n      \"Effect\": \"Allow\",\n      \"Action\": [\n        \"s3:GetObject\",\n        \"s3:ListBucket\"\n      ],\n      \"Resource\": [\n        \"arn:aws:s3:::${projectId}-*\",\n        \"arn:aws:s3:::${projectId}-*/*\"\n      ]\n    },\n    {\n      \"Effect\": \"Allow\",\n      \"Action\": [\n        \"ec2:Describe*\",\n        \"iam:Get*\",\n        \"iam:List*\",\n        \"cloudformation:Describe*\",\n        \"cloudformation:List*\",\n        \"cloudformation:Get*\",\n        \"lambda:GetFunction\",\n        \"lambda:ListFunctions\",\n        \"rds:Describe*\",\n        \"rds:List*\"\n      ],\n      \"Resource\": \"*\"\n    },\n    {\n      \"Effect\": \"Deny\",\n      \"Action\": [\n        \"s3:PutObject\",\n        \"s3:DeleteObject\",\n        \"s3:PutObjectAcl\",\n        \"ec2:Modify*\",\n        \"ec2:Create*\",\n        \"ec2:Delete*\",\n        \"ec2:Start*\",\n        \"ec2:Stop*\",\n        \"ec2:Reboot*\",\n        \"iam:Create*\",\n        \"iam:Delete*\",\n        \"iam:Attach*\",\n        \"iam:Detach*\",\n        \"iam:Put*\",\n        \"iam:Update*\"\n      ],\n      \"Resource\": \"*\"\n    }\n  ]\n}",
+  "variables": ["projectId"],
+  "version": "1.0"
+}

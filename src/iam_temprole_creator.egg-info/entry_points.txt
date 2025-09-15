@@ -1,0 +1,2 @@
+[console_scripts]
+iam-role-vendor = iam_temprole_creator.cli:main
