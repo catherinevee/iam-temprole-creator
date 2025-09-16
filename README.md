@@ -2,8 +2,8 @@
 
 A secure AWS IAM Role creator that creates temporary IAM roles with automatic expiration for contractor access and time-bound permissions.
 
-[![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)](https://terraform.io)
-[![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com)
+[![Terraform](https://img.shields.io/badge/terraform-1.6.0+-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)](https://terraform.io)
+[![AWS Provider](https://img.shields.io/badge/aws--provider-5.31.0+-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://registry.terraform.io/providers/hashicorp/aws/latest)
 [![Python](https://img.shields.io/badge/python-3.11+-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
