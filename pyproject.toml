@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "iam-temprole-creator"
 version = "0.1.0"
-description = "AWS IAM Role Vending Machine for temporary contractor access"
+description = "Temporary IAM Creator for temporary contractor access"
 authors = [{name = "IAM Team", email = "iam-team@company.com"}]
 license = {text = "MIT"}
 readme = "README.md"

@@ -1,8 +1,8 @@
-# IAM Role Vending Machine - Cleanup Scripts
+# Temporary IAM Creator - Cleanup Scripts
 
-This directory contains comprehensive cleanup scripts to completely remove all AWS resources created by the IAM Role Vending Machine.
+This directory contains comprehensive cleanup scripts to completely remove all AWS resources created by the Temporary IAM Creator.
 
-## 🧹 Available Cleanup Scripts
+## Available Cleanup Scripts
 
 ### 1. Python Script (`cleanup.py`)
 **Most comprehensive and recommended**
