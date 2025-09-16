@@ -1,0 +1,35 @@
+{
+  "BudgetName": "IAM-Role-Vendor-Monitoring",
+  "BudgetLimit": {
+    "Amount": "50",
+    "Unit": "USD"
+  },
+  "TimeUnit": "MONTHLY",
+  "BudgetType": "COST",
+  "CostFilters": {
+    "Service": [
+      "Amazon DynamoDB",
+      "AWS Lambda",
+      "Amazon API Gateway",
+      "Amazon S3",
+      "Amazon CloudWatch",
+      "AWS KMS",
+      "Amazon EventBridge"
+    ]
+  },
+  "CalculatedSpend": {
+    "ActualSpend": {
+      "Amount": "0",
+      "Unit": "USD"
+    },
+    "ForecastedSpend": {
+      "Amount": "0",
+      "Unit": "USD"
+    }
+  },
+  "TimePeriod": {
+    "Start": "2025-01-01_00:00",
+    "End": "2087-06-15_00:00"
+  },
+  "PlannedBudgetLimits": {}
+}
