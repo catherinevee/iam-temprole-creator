@@ -25,14 +25,14 @@ python cleanup.py --help
 ```
 
 **Features:**
-- ✅ Handles dependencies and proper cleanup order
-- ✅ Comprehensive error handling
-- ✅ Dry run mode
-- ✅ Force mode (skip confirmations)
-- ✅ Detailed logging
-- ✅ Resource tracking and reporting
-- ✅ Handles versioned S3 objects
-- ✅ Manages KMS key scheduling
+- Handles dependencies and proper cleanup order
+- Comprehensive error handling
+- Dry run mode
+- Force mode (skip confirmations)
+- Detailed logging
+- Resource tracking and reporting
+- Handles versioned S3 objects
+- Manages KMS key scheduling
 
 ### 2. Bash Script (`cleanup.sh`)
 **For Linux/macOS systems**
@@ -71,7 +71,7 @@ chmod +x cleanup.sh
 Get-Help .\cleanup.ps1 -Full
 ```
 
-## 🎯 What Gets Cleaned Up
+## What Gets Cleaned Up
 
 ### **AWS Resources Deleted:**
 1. **Lambda Functions**
@@ -107,7 +107,7 @@ Get-Help .\cleanup.ps1 -Full
 9. **KMS Keys**
    - Project-specific keys (scheduled for deletion in 7 days)
 
-## ⚠️ Important Notes
+## Important Notes
 
 ### **Before Running Cleanup:**
 1. **Backup Important Data**: Ensure you have backups of any important data
@@ -210,7 +210,7 @@ aws apigateway delete-rest-api --rest-api-id <API_ID>
 - Medium deployment: $20-100/month
 - Large deployment: $100+/month
 
-## 🛡️ Security Considerations
+## Security Considerations
 
 1. **Data Deletion**: All data is permanently deleted
 2. **Audit Trails**: CloudTrail logs may still contain historical records
